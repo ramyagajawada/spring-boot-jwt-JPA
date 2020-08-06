@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.javainuse.model.Pet;
 @Repository
 public interface PetRepository extends CrudRepository<Pet,Long>{
-	Iterable<Pet> findAll();
+	
 }
